@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+cv/* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -75,9 +75,11 @@ header {
     margin: auto;
 }
 
-header nav div {
+header nav a {
     padding-right: 30px;
     font-weight: bold;
+    text-decoration: none;
+    color: black;
 }
 nav {
     display: flex;
@@ -194,9 +196,9 @@ footer {
 }
 
 footer nav {
-    width: 60%;
+    
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
@@ -205,4 +207,16 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+    padding-right: 60px;
+}
+
+/* ABOUT CSS V V V */
+
+.about-page .body {
+    display: flex;
+
+}
+
+.about-page footer {
+    margin: auto;
 }
